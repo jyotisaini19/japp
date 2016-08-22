@@ -1,0 +1,30 @@
+.bigrooms{
+
+    border: solid pink;
+    height: 180px;
+}
+
+.smallrooms{
+    border: solid cornflowerblue;
+    height: 100px;
+}
+
+.main{
+    width: 60%;
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+
+.off
+ {
+    background-color: 	rgba(254, 255, 63, .5);
+    font-size: 44px;
+}
+
+.on
+{
+    background-color: white;
+    font-size: 44px;
+}

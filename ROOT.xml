@@ -1,0 +1,5 @@
+<Context 
+  docBase="/var/www/jApp>" 
+  path="" 
+  reloadable="true" 
+/>

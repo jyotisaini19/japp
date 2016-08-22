@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-center">
+    <div class="container">
+        <h1>House Automation Application</h1>
+        <h5>(Click on rooms to change light status)</h5>
+        <div class="container-fluid main">
+            <div class="row">
+                <div class="col-lg-12 bigrooms" id="ROOM1" value="TRUE">
+                    <h1>Room 1</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 smallrooms" id="ROOM2" status="TRUE" onclick="update(this)">
+                    <h1>Room 2</h1>
+                </div>
+                <div class="col-lg-5 smallrooms" id="ROOM3" status="TRUE" onclick="update(this)">
+                    <h1>Room 3</h1>
+                </div>
+                <div class="col-lg-4 smallrooms" id="ROOM4" status="TRUE" onclick="update(this)">
+                    <h1>Room 4</h1>
+                </div>
+            </div>
+            <div class="row bigrooms">
+                <div class="col-lg-12 bigrooms" id="ROOM5" status="TRUE" onclick="update(this)">
+                    <h1>Room 5</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="js/process.js"></script>
+</html>
